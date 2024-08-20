@@ -1,0 +1,25 @@
+.main {width: 100% !important;  margin:5% 0% !important; }
+.main .main_homeSlider{width: 100% !important; height: 200px !important; display:flex;
+    align-items: center; justify-content: center; position: relative;}
+.main .main_homeSlider.slick-slide { width: 180px !important; padding:10px 0px ; margin-right: 10px;}
+.main .main_homeSlider .slick-arrow{position: absolute !important; width: 40px !important; height: auto;  }
+.main .main_homeSlider .slick-arrow::before{font-size: 40px !important; filter:drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.50)) ;}
+.main .main_homeSlider .slick-arrow.slick-next{right: 2% !important; top: -10%  !important;}
+.main .main_homeSlider .slick-arrow.slick-prev{left: 90% !important; top: -10%  !important; }
+.main .main_homeSlider .items{width: 100% !important; height: 200px; display: flex !important;
+            margin-right: 10px !important;}
+.main .main_homeSlider .items .itemContainer{ width: 100% !important; height: 100% !important; border-radius: 30px;
+                        text-align: center; }
+.main .main_homeSlider .items .itemContainer img{height: 110px !important; width: 95% !important;}
+.main .main_homeSlider .items .itemContainer h5{font-weight: 400; text-transform: capitalize; padding-top: 10px;}
+.main .main_homeSlider .items .itemContainer p{font-weight: 300 !important; font-size:15px !important ;}
+.main .main_homeSlider .items .itemContainer:hover img{top: 10%; filter:drop-shadow(  0px 3px 6px rgba(0, 0, 0, 0.56) );}
+
+.main .cards{width: 100% !important; display: flex ; flex-direction: row; height: 300px !important;
+                                margin-right: 10px !important;}
+.main .cards:hover{box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.26),0px 3px 6px rgba(0, 0, 0, 0.18);}
+.main .cards img{height: auto !important; width: 200px !important; margin-bottom: 10px !important; align-self:flex-end;}
+.main .cards .card-body{ margin-left: 10px !important; align-self: center; text-transform: capitalize !important;}
+.main .cards .card-body h4 {margin-bottom: 45px !important; font-size: 24px; font-weight: bolder;}
+.main .cards .card-body button{background-color:#33ae75 ;font-size: 15px !important; color: #fff;}
+.main .cards .card-body button svg{margin-left: 10px !important; font-size: 20px !important;}

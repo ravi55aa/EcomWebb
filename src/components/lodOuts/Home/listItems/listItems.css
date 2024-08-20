@@ -1,0 +1,18 @@
+.itemsList{width: 100% !important;}
+.itemsList .items h3{font-size:28px !important ; font-weight: 600; opacity: 0.8; margin-left: 10px;}
+.itemsList .items h3::before{ content:''; display:block; position:relative !important; top: 44px; left: 0px; 
+    width: 100%; height: 3px; background: #c9c7c7; opacity: 0.4;}
+.itemsList .items h3::after{ content:''; display:block; position:relative !important; bottom: -8px; left: 0px; 
+        width: 25%; height: 3px; opacity:0.6; background: #93f694; z-index: 10;}
+.itemsList .items .cont { width: 100%; height: 115px !important;border: 2px solid rgb(234, 228, 228); 
+        margin-bottom: 10px  !important; transition: all 0.3s ease-in-out;}
+.itemsList .items .cont:hover{transform:translateY(-6px) !important ; box-shadow: 0px 6px 3px rgba(0,0,0,0.16);}
+.itemsList .items .cont .imgHolder{height: 70% !important; width: 28% !important;}
+.itemsList .items .cont .imgHolder img{ padding:0px 3px !important; height:100%  !important; 
+    width: 100% !important;}
+.itemsList .items .cont .info a{text-decoration: none; color: #111;}
+.itemsList .items .cont .info{ width: 72% !important; height: 100% !important;  text-transform: capitalize !important;}
+.itemsList .items .cont .info h4{margin: 0px; font-size:16px !important ; font-weight: 600 !important;
+        padding: 3px 5px !important; opacity: 0.9;}
+.itemsList .items .cont .info .ratings{font-size: 20px !important; padding: 3px 0px ;}
+.itemsList .items .cont .info .lastOne{margin-top: 0px !important;}

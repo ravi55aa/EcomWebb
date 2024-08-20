@@ -1,0 +1,26 @@
+header{width: 100%; height: 80px; margin: auto; padding:5px 0px;}
+header.fixed{position: fixed; top: 0 !important; left: 0; background-color: #fff; z-index: 1000;}
+header .searchBar{ width: 100%; height: 40px; border: 1px solid #3bb77e;  margin:25px 0px ;}
+header .lastColumn{position: relative; margin-top:15px ; height: 60px; }
+header .lastColumn .categaries{width:fit-content; box-shadow: 0 3px 6px rgb(0 0 0/20%);padding-right: 30px; color: rgb(45, 156, 45);   }
+header  .categaries{ width: 35%; padding: 2px 10px; margin: 0px 5px; font-size: 14px; 
+                                    position: relative; }
+header .searchBar .categaries::after{content:''; margin-top: -4px; right: 15px; border: 1px solid black; 
+                                    width: 1px; height:28px;  position: absolute;}
+header .searchBar .serachInput{ width: 70%; padding:12px 0px; position: relative;}
+header .searchBar .serachInput input{width: 92%; border: none; outline: none !important;}
+header .searchBar .serachInput .searchIcon{ position: absolute; top: 12px; right: 10px ;  opacity:0.6;}
+header .searchBar .serachInput .searchIcon:hover{filter: drop-shadow(0 0 10px #111); opacity:0.9;}
+header ul{margin-left: 10px; }
+header ul li{position: relative; font-size: 15px; cursor:pointer; }
+header ul li:hover{opacity: 1; font-weight: bolder;}
+header ul li .badgeHolder .badge{position: absolute; font-size:10px ; font-weight: bolder; 
+                                        color: #fff; top:-11px; left:10px ;}
+/* mini drop goes here */
+.miniDropD{position:absolute; height:auto; width:150px; top: 110%; right:-50%;; padding: 0px; margin: 0px !important; background: #fff;
+            box-shadow: 5px 5px 15px rgba(0, 0,0, 0.05); justify-content: flex-start; text-align: left; z-index: 1; 
+            }
+.miniDropD li{list-style: none; text-align: left ; width: 100% !important; padding: 3px 0px!important; }
+.miniDropD li .button{ width:100% !important; color: #111; text-transform: capitalize;}
+.miniDropD li .button:hover{background: #f1f1f1;}
+.miniDropD li .button svg{font-size: 2em; padding: 3px; opacity: 0.6;}

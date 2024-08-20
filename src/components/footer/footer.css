@@ -1,0 +1,20 @@
+.footerWrapper{width:100%; padding: 25px 15px !important;}
+.footerWrapper .footerHolder .box{margin:0px 5px !important; width: 100%; text-transform: capitalize; background-color: #F4F6fa; 
+    border-bottom: 3px solid #3bb77e; border-right: 3px solid #3bb77e; border-radius: 10px; transition: all 0.2s ease-in-out; }
+.footerWrapper .footerHolder .box:hover{transform:translateY(-5px) ; box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.18);  background-color: #3bb77e; }
+.footerWrapper .footerHolder .box:hover .info{color: #fff !important; }
+.footerWrapper .footerHolder .box .info{padding-left: 15px; width: 100%; color: #3a3c3b;}
+.footerWrapper .footerHolder .box h3{font-size:16px; opacity: 0.9; font-weight: 600; padding-top: 6px !important; }
+.footerWrapper .footerHolder .box p{font-size:12px; opacity: 0.8;}
+.footerWrapper .part1 {text-transform: capitalize; }
+.footerWrapper .part1 .lead{font-size: 16px !important; opacity:0.8; font-weight: 500;}
+.footerWrapper .part1 p{font-size: 14px;}
+.footerWrapper .part2{padding: 10px 0px !important; text-transform: capitalize; }
+.footerWrapper .part2 h4{ font-size:21px; opacity: 0.9; font-weight: 600; padding-top: 6px !important;  }
+.footerWrapper .part2 ul{margin-top: 5px !important; }
+.footerWrapper .part2 ul li{font-weight: 500; list-style: none; padding: 5px 0px !important; font-size:13px;}
+.footerWrapper .part2 ul li:hover a{ padding-left:5px; color: #3bb77e; opacity: 0.9;}
+.footerWrapper .part2 ul li a{ text-decoration: none; color: #000; opacity: 0.7; transition: all 0.2s ease-in-out;}
+.footerWrapper .part3{text-transform: capitalize !important; }
+.footerWrapper .part3 span{display: block; width: 40% !important; background-color: #f4faf6; margin-left:5px ;}
+.footerWrapper .part3 p{opacity: 0.9;}

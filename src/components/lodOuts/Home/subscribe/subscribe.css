@@ -1,0 +1,9 @@
+.sendMail{position: absolute; top: 51%;left: 13%; text-transform: capitalize;}
+.sendMail input{font-size: 18px; padding:10px 78px 10px 27px  !important; width: 350px;
+            border-radius: 23px; outline: none !important; border: none !important;}
+.sendMail input:hover,.sendMail input:active{box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);}
+.sendMail svg{left: 1%;top: 26%;margin-right: 10px;opacity: 0.6 !important;
+                        position: absolute !important;font-size: 21px;}
+.sendMail button{   font-size: 16px !important; padding: 10px;left: -16%; bottom: 2.6px;
+                            color: #fff;border-radius: 23px;background-color: #2ea03f;}
+.sendMail button:hover{background-color: #3bf756 !important;}

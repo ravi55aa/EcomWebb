@@ -1,0 +1,39 @@
+    /* task1 */
+    nav{ width:100%; height: 80px; border-top:2px solid #f1f1f1 ; margin-top: 2rem; border-bottom:2px solid #f1f1f1 ;}
+    nav .task1{ width:max-content; background-color:#3bbb6e; margin-left: 10px;  margin-top:10px ;  height: 55px; border-radius: 10px;}
+    nav .task1 button{width: 100% !important; padding:10px 25px ; text-transform: capitalize; 
+                        font-size: 1rem; color: white;}
+    /* task2 */
+        nav .task2 ul{width: 100% !important; text-align:center; margin-bottom: 0px;}
+        nav .task2 ul li button{ padding:26px 9px; margin: 0px;color: #3bbb6e; }
+        nav .task2 ul li button a{color: #0c9756; text-decoration: none;}
+        nav .task2 ul li button svg{ opacity: 0.6;}
+
+        nav .task2 .pages{position: relative !important;}
+        nav .task2 .pages .pagesDropD{ position: absolute; top: 150%; left: -20px; width:180px !important;
+                                    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.26),0px 3px 6px rgba(0, 0, 0, 0.18);
+                                        height: auto !important; z-index: 100; opacity: 0; visibility: hidden; 
+                                        transition: all 0.4s ease-in-out; border-radius: 5px;}
+        nav .task2 .pages .pagesDropD ul{width: 100% !important; padding-left:0 !important;}
+        nav .task2 .pages .pagesDropD li{width: 100% !important; list-style: none !important; margin: 3px 0px !important;}
+        nav .task2 .pages .pagesDropD li button{width: 100% !important; margin: 1px 0px; padding: 6px 10px !important; 
+                                                        text-align: left !important; justify-content: flex-start;}
+        nav .task2 .pages .pagesDropD li button a{font-size: 10px !important;  }
+        nav .task2 .megamenu .menu{ width :99% !important; left:0.5% !important; top:150%; background-color: #fff ;
+                                    box-shadow: 0px 3px 6px rgba(0,0,0,0.26),0px 3px 6px rgba(0,0,0,0.15);
+                                    z-index: 102; opacity: 0; visibility: hidden; transition: all 0.4s ease-in-out; border-radius: 5px; }
+        nav .task2 .megamenu .menu .menu1 { margin: 2px 5px !important; height: 345px !important;}
+        nav .task2 .megamenu .menu .menu1 h4{margin:20px 0px  !important; text-transform: capitalize !important; 
+                                    font-size: 1.5rem !important; color: #048b4c; text-underline-offset:0.7rem !important;  
+                                    text-decoration: 2px underline #048b4c;}
+        nav .task2 .megamenu .menu .menu1 ul{width: 100% !important; height: auto !important; }
+        nav .task2 .megamenu .menu .menu1 ul li{width: 100% !important; list-style: none !important; margin: 1px 0px !important;}
+        nav .task2 .megamenu .menu .menu1 li button{width: 100% !important; margin: 1px 0px; padding: 6px 10px !important; 
+            text-align: center !important; justify-content: center;}
+            nav .task2 .megamenu .menu .menu1 img{height: inherit !important; width: 100% !important; margin: 0px !important;}
+        nav .task2 .list-inline li:hover .drop{  opacity: 1 !important; top: 100% !important; visibility:visible !important; background: #fff !important; }
+    /* task3 */
+        nav .task3{width: auto; z-index:0; }
+        nav .task3 svg{opacity: 0.5; font-size:35px !important;}
+        nav .task3 h3{ font-size: 32px; color: #0c9756 !important;}
+        nav .task3 p{font-size: 13px !important; margin-bottom: 0;color: #0c9756 !important;}

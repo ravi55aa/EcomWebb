@@ -1,0 +1,23 @@
+.holder .holder2{ width:100% !important; height: auto !important; text-transform: capitalize ; margin: 10px 15px !important;}
+.holder .holder2 h3{font-size: 30px !important; font-weight: 600;}
+.holder .holder2 .items li a{margin-right: 5px !important; text-decoration: none; color: rgba(0, 0,0, 0.6);}
+.holder .holder2 .items li:hover a{ color: #33ae75 !important; font-weight: 500; transform:translateY(-10) !important; }
+
+/* component holder */
+.rowHolder{width: 100% !important; margin: 0px;}
+.holder .componentHolder{width: 18% !important;padding: 0px;
+                        margin-left: 1.5vw; margin-bottom:3vw !important; overflow: hidden !important;}
+.holder .prod2{ height: auto; margin-bottom: 30px !important;}
+.holder .prod2 .column .cbody button{ margin:1vh 0px !important; background-color:#33ae75 ; color:white ;}
+.holder .prod2 .column .cbody button svg{font-size: 1.3vw !important;}
+.holder .prod2 .column .componentHolder2{width: 93% !important; padding: 0px;
+    margin-left: 1vw; overflow: hidden !important;}
+.bannerHolder2{width:100% ; height: 350px; background:url('../../../css/images/pista2.jpg'); border-radius: 10px !important;
+            overflow: hidden !important;};
+.bannerHolder2 .box{height: auto !important; width: 100% !important; }
+.bannerHolder2 .box .info{width: 60%; height: inherit; padding: 60px 20px; text-transform: capitalize !important;}
+.bannerHolder2 .box .info h2{font-size: 46px; font-weight: 600; opacity: 0.8; padding: 4px 10px;}
+.bannerHolder2 .box .info p{font-size: 20px; font-weight: 400; padding:0px 10px ; margin-bottom:30px !important;}
+.bannerHolder2 .box .info .sendMail{position: relative !important; width: 467px !important; left:10px !important;}
+.bannerHolder2 .box .img{width: 40%; height: auto; }
+.bannerHolder2 .box .img img{height: auto ; width: 90% !important; position: relative !important; left: 130px; top: 40px;}

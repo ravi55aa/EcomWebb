@@ -1,0 +1,21 @@
+@import url( "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css");
+.homeSlider{width: 99% !important; padding-top:15px;  margin: 0px !important; height:500px !important; }
+.homeSlider .main_homeSlider{width: 100% !important; position: relative !important;  position: relative;}
+.homeSlider .main_homeSlider .slick-arrow{ position: absolute !important; z-index: 100;}
+.homeSlider .main_homeSlider .slick-arrow.slick-prev{ left: 5% !important; }
+.homeSlider .main_homeSlider .slick-next:before, .slick-prev:before { font-size: 50px !important;   }
+.homeSlider .main_homeSlider .slick-arrow.slick-next{right : 5% !important; ;}
+.homeSlider .main_homeSlider img{width: 100%;  height: 509px; border-radius: 40px !important;     width: 100%;}
+.homeSlider .main_homeSlider .slick-dots {position: absolute;bottom: 50px;display: block;width: 100%;    
+                                    padding: 0;margin: 0;list-style: none;text-align: center;}
+.homeSlider .main_homeSlider .slick-dots button::before{font-size: 12px;}
+.homeSlider .main_homeSlider .slick-dots .slick-active button::before{color: #3bfe4e;}
+
+/* texts */
+.homeSlider .main_homeSlider .mainTextHolder{height: 163px !important; width:734px !important; position: absolute; 
+                                top: 14%; left:14%; line-height: 33px; text-transform: capitalize;}
+.homeSlider .main_homeSlider .mainTextHolder h2{ font-size:47px !important; Margin-bottom: 20px;
+                                            color: #3BFE56;font-weight: bold;}
+.homeSlider .main_homeSlider .mainTextHolder p{font-size: 18px;color: #FFF;
+                                    font-weight: 400 !important;}
